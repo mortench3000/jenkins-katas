@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('say hello') {
           steps {
-            sh 'echo "hello world"'
+            sh 'echo "hello Jenkins world"'
           }
         }
 
