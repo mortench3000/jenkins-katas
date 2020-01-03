@@ -1,5 +1,7 @@
 pipeline {
-  agent any
+  agent {
+    label 'general-purpose'
+  }
   stages {
     stage('say hello') {
       parallel {
